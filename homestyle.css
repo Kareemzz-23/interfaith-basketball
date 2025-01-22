@@ -27,8 +27,8 @@ header {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 0.5em;
-    color: #ffb22e;
-    background: rgba(119, 114, 114, 0.4);
+    color: #ffffff;
+    background: rgb(236, 166, 16);
 }
 
 /* Navigation Styling */
@@ -60,7 +60,7 @@ body {
 }
 
 .nav-links li a:hover {
-    color: #ffffff;
+    color: #ffb625;
 }
 
 /* Hamburger menu styles */
@@ -218,9 +218,9 @@ footer {
     padding: 1em 0;
     margin-top: 2em;
     border-top: 2px solid #eee;
-    background: #fff;
+    background: #ffba0d;
     font-size: 0.9rem;
-    color: #fba72a;
+    color: #ffffff;
 }
 
 /* Logo Styling */
