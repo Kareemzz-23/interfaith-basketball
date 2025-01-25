@@ -22,7 +22,7 @@ header {
     font-weight: 700;
     margin-bottom: 0.5em;
     color: #222;
-    background: rgba(250, 170, 11, 0.4);
+    background: rgb(236, 166, 16);
 }
 
 /* Navigation Styling */
@@ -102,7 +102,7 @@ h4 {
 .content-image {
     float: left;
     margin-right: 15px;
-    width: 50px; /* Adjust the width as needed */
+    width: 50px; 
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Optional: Add rounded corners */
 }
