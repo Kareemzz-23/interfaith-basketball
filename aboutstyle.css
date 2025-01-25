@@ -22,7 +22,7 @@ header {
     font-weight: 700;
     margin-bottom: 0.5em;
     color: #222;
-    background: rgb(236, 166, 16);
+    background: rgba(245, 161, 36, 0.4);
 }
 
 /* Navigation Styling */
@@ -48,7 +48,7 @@ header {
 }
 
 .nav-links li a:hover {
-    color: #f6ba13;
+    color: #f6b613;
 }
 
 /* Hamburger menu styles */
@@ -59,51 +59,4 @@ header {
 }
 
 .hamburger-menu span {
-    height: 3px;
-    width: 25px;
-    background-color: white;
-    margin: 4px 0;
-    transition: all 0.3s ease;
-}
-
-/* Media query for mobile devices */
-@media (max-width: 768px) {
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .hamburger-menu {
-        display: flex;
-    }
-}
-
-
-/* Content Section */
-h4 {
-    margin: 20px 0;
-    font-size: 2em;
-}
-
-.content-section {
-    margin: 20px; 
-    padding: 15px; 
-    border: 1px solid #ddd; 
-    border-radius: 8px; 
-    background-color: #f9fafc;
-}
-
-.content-image {
-    float: left;
-    margin-right: 15px;
-    width: 300px; 
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 8px; /* Optional: Add rounded corners */
-}
-
+    height: 3
