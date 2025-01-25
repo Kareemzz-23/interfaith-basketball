@@ -22,7 +22,7 @@ header {
     font-weight: 700;
     margin-bottom: 0.5em;
     color: #222;
-    background: rgba(119, 114, 114, 0.4);
+    background: rgba(250, 170, 11, 0.4);
 }
 
 /* Navigation Styling */
@@ -48,7 +48,7 @@ header {
 }
 
 .nav-links li a:hover {
-    color: #f6f613;
+    color: #f6ba13;
 }
 
 /* Hamburger menu styles */
@@ -84,4 +84,26 @@ header {
     }
 }
 
-/* Content Section
+
+/* Content Section */
+h4 {
+    margin: 20px 0;
+    font-size: 2em;
+}
+
+.content-section {
+    margin: 20px; 
+    padding: 15px; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    background-color: #f9fafc;
+}
+
+.content-image {
+    float: left;
+    margin-right: 15px;
+    width: 50px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: Add rounded corners */
+}
+
