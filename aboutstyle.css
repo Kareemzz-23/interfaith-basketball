@@ -102,7 +102,7 @@ h4 {
 .content-image {
     float: left;
     margin-right: 15px;
-    width: 50px; 
+    width: 150px; 
     height: auto; /* Maintain aspect ratio */
     border-radius: 8px; /* Optional: Add rounded corners */
 }
