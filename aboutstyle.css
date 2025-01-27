@@ -59,4 +59,13 @@ header {
 }
 
 .hamburger-menu span {
-    height: 3
+    height: 
+
+/*content image*/
+.content-image {
+    width: 150 px;
+    height auto;
+    display: flex;
+    padding: 20 px;
+    allign-item : left;
+}
