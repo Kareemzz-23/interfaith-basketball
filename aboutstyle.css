@@ -91,15 +91,16 @@ h4 {
 }
 #image2 {
     width: 250px;
-    height: 195px
+    height: 162px
 }
 #image3 {
     width: 250px;
-    height: 195px;
+    height: 162px;
 }
-.#image4 {
-    width: 150px;
-    height: 190px;
+
+#image4 {
+    width: 100px;
+    height: 162px;
 }
 
 
