@@ -59,13 +59,24 @@ header {
 }
 
 .hamburger-menu span {
-    height: 
+    height: 3px;
+    width: 25px;
+    background: white;
+}
 
+/*content paragraph*/
+.content-paragraph {
+    width: 50%;
+    margin-left: 180 px;
+    padding: 20px;
+    text-align: left;
+}
 /*content image*/
 .content-image {
-    width: 150 px;
-    height auto;
+    width: 150px;
+    height: auto;
     display: flex;
-    padding: 20 px;
-    allign-item : left;
+    padding: 20px;
+    align-items: flex-start;
+    margin-right: auto;
 }
