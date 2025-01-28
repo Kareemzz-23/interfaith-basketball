@@ -43,7 +43,7 @@
 }
 
 /* Media query for mobile devices */
-@media (max-width: 768px) {
+@media (max-width: 500px) {
     .event-poster {
         flex-direction: column;
         align-items: center;
