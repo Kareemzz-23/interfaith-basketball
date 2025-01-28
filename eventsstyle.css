@@ -1,0 +1,54 @@
+/* Event Poster Styling */
+.event-poster {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9fafc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.event-poster:hover {
+    transform: scale(1.05);
+}
+
+.event-image {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+.event-details {
+    text-align: center;
+}
+
+.event-title {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.event-date,
+.event-location,
+.event-description {
+    margin-bottom: 5px;
+    color: #666;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .event-poster {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .event-image {
+        max-width: 100%;
+    }
+}
