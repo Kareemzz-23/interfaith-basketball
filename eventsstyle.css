@@ -43,13 +43,22 @@
 }
 
 /* Media query for mobile devices */
-@media (max-width: 500px) {
+@media (max-width: 768px) {
     .event-poster {
         flex-direction: column;
         align-items: center;
     }
 
     .event-image {
-        max-width: 40%;
+        max-width: 100%;
     }
-}
+
+    .event-title {
+        font-size: 1.2em;
+    }
+
+    .event-date,
+    .event-location,
+    .event-description {
+        font-size: 0.9em;
+    
