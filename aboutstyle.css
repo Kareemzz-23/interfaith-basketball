@@ -63,6 +63,23 @@ header {
     width: 25px;
     background: white;
 }
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+}
 
 /* Content Section */
 h4 {
