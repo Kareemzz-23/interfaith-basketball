@@ -66,6 +66,8 @@ header {
 
 /* Content Section */
 .content-section img.content-image {
+    width: 500px;
+    height: auto;
     float: over;
     margin-right: 15px;
     max-width: 100%; /* Ensure the image doesn't exceed the container's width */
