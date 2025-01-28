@@ -1,3 +1,85 @@
+/* Body Styling */
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    text-align: left;
+    margin: 0;
+}
+
+/* Header Styling */
+header {
+    background: #f4f1f1;
+    border-bottom: 2px solid #eee;
+    text-align: center;
+    padding: 10px;
+}
+
+.main-heading {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    color: #222;
+    background: rgba(245, 161, 36, 0.4);
+}
+
+/* Navigation Styling */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #f6b613;
+}
+
+/* Hamburger menu styles */
+.hamburger-menu {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger-menu span {
+    height: 3px;
+    width: 25px;
+    background: white;
+}
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .hamburger-menu {
+        display: flex;
+    }
+}
 /* Event Poster Styling */
 .event-poster {
     display: flex;
@@ -17,12 +99,11 @@
 }
 
 .event-image {
-    width: 500px;
-    max-width: 100%;
-    height: auto;
+    width: 100%; /* Adjust the width as needed */
+    max-width: 400px; /* Ensure the image doesn't exceed this width */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 8px;
     margin-bottom: 15px;
-    padding: 20px;
 }
 
 .event-details {
@@ -47,10 +128,12 @@
     .event-poster {
         flex-direction: column;
         align-items: center;
+        padding: 10px;
     }
 
     .event-image {
         max-width: 100%;
+        width: auto;
     }
 
     .event-title {
